@@ -1,0 +1,31 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Alumni Sans Inline One", sans-serif;
+  font-family: "Faster One", system-ui;
+  font-size: 100%;
+}
+
+main {
+  overflow-x: hidden;
+  width: 100%;
+}
+main a {
+  color: #3c763d;
+  text-decoration: none;
+}
+main li {
+  list-style-type: none;
+}
+main section, main header, main aside, main footer, main figure, main article {
+  display: flex;
+}
+main .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}/*# sourceMappingURL=global.css.map */
